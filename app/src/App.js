@@ -80,9 +80,10 @@ const App = () => {
         <div className="header-container">
           <p className="header">🍭 Candy Drop</p>
           <p className="sub-text">NFT drop machine with fair mint</p>
-          {/* Render your connect to wallet button right here */}
-      {walletAddress && <CandyMachine walletAddress={window.solana} />}
+          {!walletAddress && renderNotConnectedContainer()}
         </div>
+        {/* Check for walletAddress and then pass in walletAddress */}
+      {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
