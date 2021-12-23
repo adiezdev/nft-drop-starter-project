@@ -1,0 +1,19 @@
+{
+    "name": "Spider-man",
+    "symbol": "",
+    "image": "1.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "1.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "9RzjBZH1DeJTGyEqrvUEMBBMPQESe5ty8vUFfhjd55Rw",
+          "share": 100
+        }
+      ]
+    }
+  }
